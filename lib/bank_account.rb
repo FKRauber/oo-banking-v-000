@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def deposit(deposit_amt)
-    @balance += deposit
+    @balance += deposit_amt
   end
   def display_balance
       "Your balance is $#{balance}."
